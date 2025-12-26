@@ -1,0 +1,35 @@
+/* ================================
+   Custom fonts (Canva)
+   ================================ */
+
+@font-face {
+  font-family: 'Chunk Five';
+  src: url('../fonts/Chunkfive.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Londrina Solid';
+  src: url('../fonts/LondrinaSolid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================
+   Font usage
+   ================================ */
+
+/* Headings / titles */
+h1, h2, h3, h4 {
+  font-family: 'Chunk Five', serif;
+  letter-spacing: -0.03em;
+}
+
+/* Body text */
+body, p, li {
+  font-family: 'Londrina Solid', cursive;
+  line-height: 1.6;
+}
